@@ -1,0 +1,91 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(https://imgur.com/YbQExN6.jpg);
+  background-size: cover;
+}
+
+.form-container {
+  background-color: transparent;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.input-field {
+  width: 300px;
+  background-color: black;
+  color: white;
+  height: 38px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  outline: none;
+  border-radius: 5px;
+  border-width: 0px;
+  padding: 5px;
+}
+
+.button {
+  height: 38px;
+  width: 120px;
+  background-color: blanchedalmond;
+  margin-top: 8px;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: darkred;
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
+
+.nav-link {
+  margin-top: 53px;
+  text-decoration: none;
+  color: maroon;
+  font-weight: bold;
+  font-family: "Roboto";
+  display: flex;
+  justify-content: space-around;
+}
+
+.arrow-image {
+  height: 32px;
+  width: 30px;
+  margin-top: -6px;
+  margin-left: 5px;
+}
+
+.heading {
+  font-family: "Roboto";
+  color: whitesmoke;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.success-text {
+  color: green;
+  font-family: "Roboto";
+  font-size: 13px;
+  font-weight: bold;
+}

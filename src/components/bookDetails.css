@@ -1,0 +1,35 @@
+.book-details {
+  background-image: url(https://i.imgur.com/P3m98MQ.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+}
+
+.title-heading {
+  font-family: "Roboto";
+  font-size: 3rem;
+  color: #383838;
+}
+
+.author-heading {
+  font-family: "Roboto";
+  font-size: 3rem;
+  color: #383838;
+}
+
+.home-image {
+  width: 50px;
+  height: 50px;
+  margin: 1px;
+}
+.nav-home {
+  text-decoration: none;
+  color: black;
+  margin: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
